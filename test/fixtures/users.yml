@@ -1,0 +1,6 @@
+user1:
+  fname: 'FirstName'
+  lname: 'LastName'
+  email: 'user1@email.com'
+  dob: <%= Date.today - 30.years %>
+  phone: '5555550001'

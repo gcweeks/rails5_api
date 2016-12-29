@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+  <%= stylesheet_link_tag 'application' %>
+</head>
+
+<body style="background-color:#F9F9F9;padding-bottom:10px;padding-top:20px;">
+  <div style="text-align:center;">
+    <%= image_tag attachments['logo.png'].url, style:"height:26px; width:156px;" %>
+    <div class="spacer" style="height:20px"></div>
+  </div>
+
+  <div style="padding:20px;margin-right:4%;margin-left:4%;background-color:#FFFFFF;">
+    <h1 style="color:#28b3fe;">Welcome <%=@user.fname%>!</h1>
+    <div style="font-size:16px;line-height:150%;">
+      <p>Welcome to SomeCompany. Enjoy your stay!</p>
+      <p>If you have any questions, send us a note at feedback@somecompany.com.</p>
+      <p>Cheers,<br>SomeCompany Team</p>
+    </div>
+  </div>
+  <%= image_tag attachments['divider.png'].url, style:"margin-left:4%;width:92%;margin-top:-25px;"%>
+  <div style="text-align:center;padding-top:20px;">
+    <p style="text-size:6px;color:#989EA6;line-height:150%;"><a href="http://SomeCompany.co/">SomeCompany</a><br>Some Address  •  Some City, Some State  •  Some Zip</p>
+  </div>
+
+</body>
+</html>
