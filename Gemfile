@@ -6,7 +6,7 @@ gem 'rails', '~> 5.1.4'
 # Use postgresql as the database for Active Record
 gem 'pg', '0.21.0'
 # Use Puma as the app server
-gem 'puma', '~> 3.11'
+gem 'puma', '~> 3.12'
 # Use Passenger as the app server
 # gem 'passenger', '~> 5.0'
 # Use Redis adapter to run Action Cable in production
